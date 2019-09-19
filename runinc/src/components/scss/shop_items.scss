@@ -1,0 +1,60 @@
+.shoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "shoe1 shoe2 shoe3"
+        "shoe4 shoe5 shoe6";
+    grid-gap: 2rem;
+    padding: 10%;
+    margin-top: 9%;
+    transform-origin: 0 0;
+    transition: transform .25s,
+        visibility .25s ease-in;
+
+    img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        transition: all .2s;
+        overflow: hidden;
+
+        &:hover {
+            transform: scale(0.9);
+        }
+
+    }
+
+    p {
+        text-align: center;
+    }
+
+    li {
+        border: 2px solid black;
+        height: 20vh;
+
+    }
+
+    li:nth-of-type(1) {
+        grid-area: shoe1;
+    }
+
+    li:nth-of-type(2) {
+        grid-area: shoe2;
+    }
+
+    li:nth-of-type(3) {
+        grid-area: shoe3;
+    }
+
+    li:nth-of-type(4) {
+        grid-area: shoe4;
+    }
+
+    li:nth-of-type(5) {
+        grid-area: shoe5;
+    }
+
+    li:nth-of-type(6) {
+        grid-area: shoe6;
+    }
+}

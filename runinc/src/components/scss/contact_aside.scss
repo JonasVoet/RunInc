@@ -1,0 +1,41 @@
+  .contact-aside {
+      grid-area: aside;
+      position: relative;
+      margin-top: -5.4rem;
+
+      h2 {
+          position: absolute;
+          top: 27%;
+          font-size: 4rem;
+          color: black;
+          padding: 0.5rem;
+          padding-left: 25rem;
+          padding-right: 2rem;
+          background-color: yellow;
+      }
+
+      .contact-footer {
+          text-align: center;
+          background-color: black;
+          color: white;
+          margin-top: -0.3rem;
+          padding: 5%;
+
+
+          h3 {
+              font-size: 2em;
+          }
+
+          li {
+              padding-top: 0.3rem;
+              color: white;
+              line-height: 1.3;
+          }
+
+          a {
+              text-decoration: underline;
+              color: white;
+          }
+
+      }
+  }

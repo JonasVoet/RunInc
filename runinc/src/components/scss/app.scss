@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    -webkit-user-drag: none;
+    line-height: 1.2;
+    font-family: 'Raleway',
+        sans-serif;
+}
+
+.active {
+    background-color: rgb(255, 255, 0);
+    padding: 1.2rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .active {
+        background-color: white;
+    }
+
+
+    .navbar {
+        display: block;
+        width: 100%;
+
+        ul {
+            display: block;
+            text-align: center;
+            font-size: 2em;
+
+            a {
+                text-align: center;
+            }
+        }
+
+        .search {
+            display: none;
+        }
+    }
+
+    .cover-container {
+        figcaption {
+            text-align: center;
+            padding: 20rem;
+        }
+    }
+
+    .event-container {
+        display: block;
+
+        .aside-event {
+            margin-top: -13rem;
+
+            h2 {
+                padding-top: 5rem;
+                text-align: center;
+                font-size: 5em !important;
+            }
+
+            li {
+                text-align: center;
+                font-size: 2em !important;
+            }
+        }
+    }
+
+    .shop-container {
+        display: block;
+
+        .shop-list-container {
+            margin-top: 1rem;
+            text-align: center;
+            height: 100vh;
+
+
+            ul.shop-list {
+
+                h2 {
+                    margin: 0;
+                    padding-bottom: 1rem;
+                    font-size: 5em;
+                }
+
+                li {
+                    font-size: 2.5em;
+                }
+            }
+        }
+    }
+
+    .shopItems-container {
+        margin-bottom: 20rem;
+
+
+        h2 {
+            display: none;
+        }
+
+        margin-top: -9rem;
+    }
+
+    .shop-items {
+        height: 110vh;
+        margin-top: 10rem;
+
+        .shoes {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "shoe1 shoe2"
+                "shoe3 shoe4"
+                "shoe5 shoe6";
+
+            li {
+                height: 38vh;
+                font-size: 2em;
+            }
+        }
+
+    }
+
+    .contact-container {
+        display: block;
+    }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    /* Styles */
+}

@@ -1,0 +1,34 @@
+.App {
+    display: grid;
+    width: 100%;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+        "nav"
+        "wrapper";
+
+    .wrapper {
+        display: grid;
+        grid-area: wrapper;
+        grid-template-columns: 1fr;
+        grid-template-areas: "cover"
+            "event"
+            "shop"
+            "contact";
+
+        .cover-container {
+            grid-area: cover;
+        }
+
+        .event-container {
+            grid-area: event;
+        }
+
+        shop-container {
+            grid-area: shop;
+        }
+
+        .contact-container {
+            grid-area: contact;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas:
+        "aside aside form";
+    margin-top: 5rem;
+
+
+    img {
+        width: 100%;
+    }
+
+}

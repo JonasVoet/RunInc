@@ -1,0 +1,61 @@
+.event-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-areas:
+        "eventcover eventcover aside";
+
+    .eventCover-container {
+        grid-area: eventcover;
+
+        img {
+            width: 100%;
+            margin-top: -.3rem;
+        }
+    }
+
+    .aside-event {
+        margin-top: -0.3rem;
+        grid-area: aside;
+        background-color: yellow;
+        height: 96.6vh;
+
+        .event {
+            text-align: left;
+            margin: 12rem auto;
+            margin-left: 5rem;
+
+            h2 {
+                font-size: 3em;
+                font-weight: 700;
+            }
+
+            span {
+                font-size: 1.3em;
+                font-weight: 700;
+            }
+
+            li {
+                font-size: 1.3em;
+            }
+
+            li:nth-of-type(1) {
+                padding-top: 1.5rem;
+            }
+
+            li:nth-of-type(2) {
+                padding-top: 0;
+            }
+
+            li:nth-of-type(4) {
+                padding-top: 2rem;
+            }
+
+            li:nth-of-type(6) {
+                padding-top: 2rem;
+            }
+
+        }
+    }
+
+
+}

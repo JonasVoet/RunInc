@@ -1,0 +1,36 @@
+.cover-container {
+    width: 100%;
+    grid-area: cover;
+    // height: 100vh;
+
+    figure {
+        position: relative;
+
+        img {
+            min-width: 100%;
+            height: 100vh;
+        }
+
+        figcaption {
+            position: absolute;
+            top: 45%;
+            right: 0%;
+            font-size: 4rem;
+            color: white;
+            padding: 0.5rem;
+            padding-left: 2rem;
+            padding-right: 25rem;
+            background-color: black;
+        }
+
+        span {
+            color: yellow;
+        }
+
+    }
+
+
+
+
+
+}
